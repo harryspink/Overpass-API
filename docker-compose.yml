@@ -15,7 +15,7 @@ services:
       - overpass-db:/db
     environment:
       - OVERPASS_META=no
-      - OVERPASS_MODE=init
+      - OVERPASS_MODE=diff
       - OVERPASS_PLANET_URL=https://download.geofabrik.de/europe-latest.osm.bz2
       - OVERPASS_DIFF_URL=http://download.openstreetmap.fr/replication/europe/minute/
       - OVERPASS_UPDATE_SLEEP=3600
